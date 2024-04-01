@@ -1,0 +1,207 @@
+/* Estilos para a topbar */
+.topbar {
+    background-color: #06056B;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.topbar p {
+    margin-bottom: 0;
+}
+
+.topbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.topbar a:hover {
+    color: #8DD8F7;
+}
+
+/* Ícones sociais na topbar */
+.topbar .fab {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Estilos para o cabeçalho */
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+
+/* Estilos para a seção hero */
+.hero-section {
+    background-color: #06056B;
+    color: #FFFFFF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: #FFFFFF;
+}
+
+/* Estilos para a seção de produtos */
+.products-section {
+    background-color: #CCCCCC; /* Cinza */
+    color: #06056B; /* Azul escuro */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.products-section h2 {
+    color: #06056B; /* Azul escuro */
+}
+
+.products-section .card {
+    background-color: #e2e2e2; /* Verde mais claro */
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.products-section .card h3 {
+    color: #06056B; /* Azul escuro */
+}
+
+.products-section .card p {
+    color: #666666; /* Cinza escuro */
+}
+
+.products-section .card a.btn {
+    color: #FFFFFF; /* Branco */
+    background-color: #267526; /* Verde escuro */
+    border: 1px solid #189718; /* Verde escuro */
+}
+
+.products-section .card a.btn:hover {
+    background-color: #006400; /* Verde mais escuro */
+    border: 1px solid #006400; /* Verde mais escuro */
+}
+/* Estilos para as imagens nos cartões */
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de localização */
+.location-section {
+    background-color: #302e2e; /* Verde escuro */
+    color: #FFFFFF; /* Branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.location-section h2 {
+    color: #FFFFFF; /* Branco */
+    margin-bottom: 30px; /* Espaçamento inferior para o título */
+}
+
+.location-section .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location-section h3, .location-section p {
+    text-align: center; /* Alinha o texto ao centro */
+    margin-bottom: 10px; /* Espaçamento inferior para os parágrafos */
+}
+
+.location-section .text-center {
+    text-align: center;
+}
+
+
+
+
+/* Estilos para o formulário de contato */
+.contact-section {
+    background-color: #64C1F3;
+    color: #FFFFFF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #FFFFFF;
+}
+
+.contact-section .form-label {
+    color: #FFFFFF;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #06056B;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0; /* Remover margem superior */
+    margin-bottom: 0; /* Remover margem inferior */
+}
+
+/* Estilos para a seção com o botão "Ver Todos Produtos" */
+.button {
+    background-color: #FFFFFF; /* Cor de fundo */
+    padding: 50px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilos para o botão "Ver Todos Produtos" */
+.button .btn {
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase; /* Texto em maiúsculo */
+    border: 2px solid #06056B; /* Borda sólida com cor azul escura */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    color: #06056B; /* Cor do texto */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Estilos para o hover do botão "Ver Todos Produtos" */
+.button .btn:hover {
+    background-color: #06056B; /* Cor de fundo ao passar o mouse */
+    color: #FFFFFF; /* Cor do texto ao passar o mouse */
+}
+/* Estilos para o botão do WhatsApp */
+.whatsapp-button {
+    position: fixed; /* Botão fixo na tela */
+    bottom: 20px; /* Distância do fundo da tela */
+    right: 20px; /* Distância da direita da tela */
+    z-index: 9999; /* Coloca o botão sobre outros elementos */
+}
+
+.whatsapp-button a {
+    display: block; /* Transforma o link em um bloco */
+    width: 60px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    background-color: #25D366; /* Cor de fundo do botão do WhatsApp */
+    border-radius: 50%; /* Transforma o botão em um círculo */
+    text-align: center; /* Centraliza o ícone */
+    line-height: 60px; /* Centraliza o ícone verticalmente */
+    color: #FFFFFF; /* Cor do ícone */
+    font-size: 30px; /* Tamanho do ícone */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.whatsapp-button a:hover {
+    background-color: #128C7E; /* Cor de fundo ao passar o mouse */
+}
